@@ -1,0 +1,116 @@
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-330.5 531.3 257 258" style="enable-background:new -330.5 531.3 257 258;" xml:space="preserve">
+  <defs>
+   <style type="text/css">
+    .st0{fill:none;stroke:#fff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st1{fill:none;stroke:#fff;stroke-width:2;stroke-miterlimit:10;}
+    .st2{fill:#fff;stroke:#fff;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st3{fill:#fff;stroke:#fff;stroke-width:3;stroke-miterlimit:10;}
+     .outerShell {
+       stroke-dasharray: 1200;
+       stroke-dashoffset: 0;
+       animation: dash 4s linear forwards;
+       animation-delay: 0.5s;
+       -webkit-animation: dash 4s linear forwards;
+       -webkit-animation-delay: 0.5s;
+       -o-animation: dash 4s linear forwards;
+       -o-animation-delay: 0.5s;
+       -moz-animation: dash 4s linear forwards;
+       -moz-animation-delay: 0.5s;
+     }
+
+    @keyframes dash {
+      from {
+         stroke-dashoffset: 1200;
+      }
+      to {
+         stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes dash {
+      from {
+         stroke-dashoffset: 1200;
+      }
+      to {
+         stroke-dashoffset: 0;
+      }
+    }
+
+    @-moz-keyframes dash {
+      from {
+         stroke-dashoffset: 1200;
+      }
+      to {
+         stroke-dashoffset: 0;
+      }
+    }
+
+    .dumbell { 
+       stroke-dasharray: 1200;
+       stroke-dashoffset: 0;
+       animation: dashDumbell 7.5s linear forwards;
+       animation-delay: 0.5s;
+       -webkit-animation: dashDumbell 7.5s linear forwards;
+       -webkit-animation-delay: 0.5s;
+       -o-animation: dashDumbell 7.5s linear forwards;
+       -o-animation-delay: 0.5s;
+       -moz-animation: dashDumbell 7.5s linear forwards;
+       -moz-animation-delay: 0.5s;
+     }
+
+    @keyframes dashDumbell {
+      from {
+         stroke-dashoffset: 1200;
+      }
+      to {
+         stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes dashDumbell {
+      from {
+         stroke-dashoffset: 1200;
+      }
+      to {
+         stroke-dashoffset: 0;
+      }
+    }
+
+    @-moz-keyframes dashDumbell {
+      from {
+         stroke-dashoffset: 1200;
+      }
+      to {
+         stroke-dashoffset: 0;
+      }
+    }
+
+    #logo:hover .st0, #logo:hover .st1 {
+      fill: #FDCF98;
+      stroke: #FDCF98;
+      transition: .8s;
+    }
+
+   </style>
+ </defs>
+	<g>
+		<path class="st0 outerShell" d="M-202.5,542.8l-118.4,118.4l118.4,118.4L-84,661.2L-202.5,542.8z M-308.4,661.2l105.9-105.9l105.9,105.9
+			l-105.9,105.9L-308.4,661.2z"/>
+	</g>
+	<g>
+		<path class="st1 dumbell" d="M-136.6,651.2c-4.1,0-7.6,2.5-9.1,6H-259c-1.5-3.5-5.1-6-9.1-6c-5.5,0-10,4.5-10,10s4.5,10,10,10
+			c4.1,0,7.6-2.5,9.1-6h113.3c1.5,3.5,5.1,6,9.1,6c5.5,0,10-4.5,10-10S-131.1,651.2-136.6,651.2z M-268.1,666.7
+			c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5c3.1,0,5.5,2.5,5.5,5.5S-265.1,666.7-268.1,666.7z M-136.6,666.7c-3.1,0-5.5-2.5-5.5-5.5
+			s2.5-5.5,5.5-5.5c3.1,0,5.5,2.5,5.5,5.5S-133.5,666.7-136.6,666.7z"/>
+	</g>
+	<g>
+		<path class="st2" d="M-212.5,653.7h12.7l-31.9-31.9l29.1-29.1l35.6,35.6l6.4-6.4l-41.8-42l-41.7,41.7l0.2,0.2l-0.2,0.2
+			L-212.5,653.7z M-184.6,668.7h-12.7l24.2,24.2l-29.1,29.1l-35.6-35.6l-6.4,6.4l41.8,42l41.7-41.7l-0.2-0.2l0.2-0.2L-184.6,668.7z"
+			/>
+	</g>
+  <line class="st3" x1="-160.7" y1="621.8" x2="-178.7" y2="640"/>
+  <line class="st3" x1="-244.5" y1="692.5" x2="-227.1" y2="674.9"/>
+</svg>
+
+

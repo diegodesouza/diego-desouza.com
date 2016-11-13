@@ -1,0 +1,35 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+  <defs>
+   <style type="text/css">
+    .st0{fill:#343D59;stroke:#343D59;stroke-width:5;stroke-miterlimit:10;}
+   </style>
+ </defs>
+
+  <g class="st0">
+    <path d="M0,31.67v448.66h512V31.67H0z M496.165,464.495H15.835V121.402h480.33V464.495z M496.165,105.567H15.835V47.505h480.33
+      V105.567z"/>
+  </g>
+  <g class="st0">
+    <rect x="39.588" y="68.619" width="21.113" height="15.835"/>
+  </g>
+  <g class="st0">
+    <rect x="71.258" y="68.619" width="21.113" height="15.835"/>
+  </g>
+  <g class="st0">
+    <rect x="451.299" y="68.619" width="21.113" height="15.835"/>
+  </g>
+  <g class="st0">
+    <path d="M36.948,142.515v300.866h438.103V142.515H36.948z M459.216,427.546H52.784V158.351h406.433V427.546z"/>
+  </g>
+  <g class="st0">
+    <polygon points="187.701,214.094 176.505,202.896 86.453,292.948 176.505,383.001 187.701,371.803 108.846,292.948 		"/>
+  </g>
+  <g class="st0">
+    <polygon points="335.495,202.896 324.299,214.094 403.154,292.948 324.299,371.803 335.495,383.001 425.547,292.948 		"/>
+  </g>
+  <g class="st0">
+    <rect x="156.838" y="285.033" transform="matrix(0.4258 -0.9048 0.9048 0.4258 -118.0685 399.8477)" width="198.336" height="15.835"/>
+  </g>
+</svg>
