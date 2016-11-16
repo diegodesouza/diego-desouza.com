@@ -1,74 +1,76 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="-192 215.8 226.2 294.2" style="enable-background:new -192 215.8 226.2 294.2;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#fff;stroke:#231F20;stroke-miterlimit:10;}
+  <defs>
+    <style type="text/css">
+      .st0{fill:#fff;stroke:#231F20;stroke-miterlimit:10;}
 
+      .st0 {
+        animation: bounce 3s infinite;
+        -moz-animation: bounce 3s infinite;
+        -webkit-animation: bounce 3s infinite;
+        -o-animation: bounce 3s infinite;
+      }
 
-   .st0 {
-     animation: bounce 3s infinite;
-     -moz-animation: bounce 3s infinite;
-     -webkit-animation: bounce 3s infinite;
-     -o-animation: bounce 3s infinite;
-   }
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -moz-transform: translateY(0);
+          -ms-transform: translateY(0);
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+        40% {
+          -moz-transform: translateY(-50px);
+          -ms-transform: translateY(-50px);
+          -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+        }
+        60% {
+          -moz-transform: translateY(-25px);
+          -ms-transform: translateY(-25px);
+          -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+        }
+      }
 
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -moz-transform: translateY(-50px);
-      -ms-transform: translateY(-50px);
-      -webkit-transform: translateY(-50px);
-      transform: translateY(-50px);
-    }
-    60% {
-      -moz-transform: translateY(-25px);
-      -ms-transform: translateY(-25px);
-      -webkit-transform: translateY(-25px);
-      transform: translateY(-25px);
-    }
-  }
+      @-moz-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -moz-transform: translateY(0);
+          transform: translateY(0);
+        }
+        40% {
+          -ms-transform: translateY(-50px);
+          transform: translateY(-50px);
+        }
+        60% {
+          -moz-transform: translateY(-25px);
+          transform: translateY(-25px);
+        }
 
-  @-moz-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -moz-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -ms-transform: translateY(-50px);
-      transform: translateY(-50px);
-    }
-    60% {
-      -moz-transform: translateY(-25px);
-      transform: translateY(-25px);
-    }
+      @-webkit-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+        40% {
+          -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+        }
+        60% {
+          -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+        }
+      }
 
-  @-webkit-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -webkit-transform: translateY(-50px);
-      transform: translateY(-50px);
-    }
-    60% {
-      -webkit-transform: translateY(-25px);
-      transform: translateY(-25px);
-    }
-  }
-</style>
-<g>
-	<path class="st0" d="M-156.2,309.2c0,3.5,1.7,8.7,3.4,12.2l26.7,47.2l-4.5,0c-10.4-0.1-17.4,3.3-22.7,12s-5.4,17.4-0.2,26.1
-		l51.4,90.9c5.2,7,12.1,12.3,22.5,12.4c10.4,0.1,17.4-3.3,22.7-12l53-90c1.8-3.5,3.6-8.7,3.6-12.2c0-3.5-1.7-8.7-3.4-12.2
-		c-5.2-7-13.8-12.3-22.5-12.4l-5.5,0l28.5-48.5c1.8-3.5,3.5-6.9,3.6-12.2c0.1-13.9-12-26.2-25.9-26.3l-104.4-0.9
-		C-143.8,283.2-156.1,295.3-156.2,309.2L-156.2,309.2z M-26.4,386.9c3.5,0,6.9,1.8,6.9,3.5c0,1.7,1.7,5.2-0.1,8.7l-53,90
-		c-1.8,3.5-5.2,3.4-7,3.4c-1.7,0-5.2,0-6.9-3.5l-51.4-90.9c-1.7-3.5,0.1-7,0.1-8.7c0,0,1.8-3.5,7-3.4l14.5,0.1l14.8,26.2
-		c5.2,7,12.1,12.3,22.5,12.4c10.4,0.1,17.4-3.3,22.7-12l15.3-26L-26.4,386.9L-26.4,386.9z M-25.7,301.6c7,0.1,10.4,7,6.9,12.2
-		l-53,90c-1.8,3.5-5.2,3.4-7,3.4s-5.2,0-6.9-3.5l-51.4-90.9c-1.7,0-1.7-1.8-1.7-3.5c0-3.5,3.6-8.7,8.8-8.6L-25.7,301.6L-25.7,301.6z
-		"/>
-</g>
+    </style>
+  </defs>
+  <g>
+    <path class="st0" d="M-156.2,309.2c0,3.5,1.7,8.7,3.4,12.2l26.7,47.2l-4.5,0c-10.4-0.1-17.4,3.3-22.7,12s-5.4,17.4-0.2,26.1
+      l51.4,90.9c5.2,7,12.1,12.3,22.5,12.4c10.4,0.1,17.4-3.3,22.7-12l53-90c1.8-3.5,3.6-8.7,3.6-12.2c0-3.5-1.7-8.7-3.4-12.2
+      c-5.2-7-13.8-12.3-22.5-12.4l-5.5,0l28.5-48.5c1.8-3.5,3.5-6.9,3.6-12.2c0.1-13.9-12-26.2-25.9-26.3l-104.4-0.9
+      C-143.8,283.2-156.1,295.3-156.2,309.2L-156.2,309.2z M-26.4,386.9c3.5,0,6.9,1.8,6.9,3.5c0,1.7,1.7,5.2-0.1,8.7l-53,90
+      c-1.8,3.5-5.2,3.4-7,3.4c-1.7,0-5.2,0-6.9-3.5l-51.4-90.9c-1.7-3.5,0.1-7,0.1-8.7c0,0,1.8-3.5,7-3.4l14.5,0.1l14.8,26.2
+      c5.2,7,12.1,12.3,22.5,12.4c10.4,0.1,17.4-3.3,22.7-12l15.3-26L-26.4,386.9L-26.4,386.9z M-25.7,301.6c7,0.1,10.4,7,6.9,12.2
+      l-53,90c-1.8,3.5-5.2,3.4-7,3.4s-5.2,0-6.9-3.5l-51.4-90.9c-1.7,0-1.7-1.8-1.7-3.5c0-3.5,3.6-8.7,8.8-8.6L-25.7,301.6L-25.7,301.6z
+      "/>
+  </g>
 </svg>

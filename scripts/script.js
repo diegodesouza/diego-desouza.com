@@ -70,7 +70,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     $('html, body').animate({
-      scrollTop: eval($(".section-portfolio").offset().top)
+      scrollTop: eval($(".section-contact").offset().top)
     }, 2000);
   });
 
