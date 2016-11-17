@@ -208,6 +208,14 @@ body.is-loaded {
   margin: 2em 0;
 }
 
+.section-about-content a {
+  color: var(--primary-color);
+}
+
+.section-about-content a:hover {
+  color: var(--tertiary-color);
+}
+
 .section-about-interests > div {
   display: flex;
   flex-direction: column;
