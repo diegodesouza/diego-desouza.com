@@ -270,6 +270,7 @@ body.is-loaded {
 
 .about-arrow-container {
   margin-top: 2em;
+  line-height: 1;
 }
 
 /*** Section Portfolio ***/
