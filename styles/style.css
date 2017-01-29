@@ -298,13 +298,43 @@ body.is-loaded {
   text-align: center;
 }
 
-.section-contact-links-container > a {
-  text-decoration: none;
+.section-contact-links-container svg {
+  width: 150px;
 }
 
-.section-contact-links-container a > img {
+.section-contact-links-container svg .paper-plane,
+.section-contact-links-container svg .linkedIn,
+.section-contact-links-container svg .github,
+.section-contact-links-container svg .twitter,
+.section-contact-links-container svg .blogging {
+  fill: var(--secondary-color);
+  stroke: var(--secondary-color);
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.section-contact-links-container svg .twitter,
+.section-contact-links-container svg .github {
+  fill: none;
+  stroke-width: 20;
+}
+
+.section-contact-links-container svg .st1 {
+  fill: transparent;
+  stroke: var(--secondary-color);
+  stroke-width: 16;
+  stroke-miterlimit: 10;
+}
+
+.section-contact-links-container svg:hover path {
+  fill: var(--light-contrast-color);
+  stroke: var(--light-contrast-color);
+}
+
+
+.section-contact-links-container a > svg {
   width: 25%;
-  height: 5.313em;
+  height: 8.25em;
 }
 
 .section-contact-copyright {
