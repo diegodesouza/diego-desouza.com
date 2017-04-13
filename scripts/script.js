@@ -1,22 +1,27 @@
-window.onload = function () {
+$(document).ready(function () {
   'use strict';
+
   var $window = $(window);
+
   setTimeout(function() {
     $("body").removeClass("is-loading").addClass("is-loaded");
     $(".pre-loader").fadeOut();
     $window.trigger('scroll')
   }, 800);
+
   var animateMenu = function() {
     $('.navigation-trigger').click(function() {
       $('.menu-list').slideToggle(500)
     })
   };
   animateMenu();
+
   $window.resize(function() {
     if ($window.width() > 500) {
       $('.menu-list').removeAttr('style')
     }
   });
+
   var animateBar = function() {
     $('.navigation-trigger').click(function() {
       $('.section-menu-horizontal-line').animate({
@@ -27,7 +32,9 @@ window.onload = function () {
     })
   };
   animateBar();
+
   var parent, ink, d, x, y;
+
   $('.menu-item a').click(function(e) {
     e.preventDefault();
     parent = $(this).parent();
@@ -49,24 +56,28 @@ window.onload = function () {
       left: x + 'px'
     }).addClass('animate')
   });
+
   $('.arrow-down-home').click(function(event) {
     event.preventDefault();
     $('html, body').animate({
       scrollTop: eval($(".section-menu").offset().top - 15)
     }, 2000)
   });
+
   $('.arrow-down-about').click(function(event) {
     event.preventDefault();
     $('html, body').animate({
       scrollTop: eval($(".section-contact").offset().top)
     }, 2000)
   });
-  $("a[href^=\\#]").on("click", function(event) {
+
+  // Animates links for menu
+  $("a[href^=\\#]").click(function (event) {
     event.preventDefault();
     var $link = $(this);
     var $target = $($link.attr("href"));
-    $("html,body").animate({
+    $("html, body").animate({
       scrollTop: $target.offset().top
     }, 2000)
   })
-}()
+})
